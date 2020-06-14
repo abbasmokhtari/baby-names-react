@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  width: 90vw;
+  margin:  50px auto;
+  border: 2px solid rgb(140, 243, 247);
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .m {
@@ -8,13 +13,16 @@
   color: rgb(2, 54, 70);
   text-align: center;
   margin: 5px;
+  border-radius: 10px;
 }
+
 .f {
   padding: 5px;
   background-color: rgb(236, 114, 205);
   color: rgb(68, 2, 59);
   text-align: center;
   margin: 5px;
+  border-radius: 10px;
 }
 
 .container{
