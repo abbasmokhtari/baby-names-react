@@ -3,7 +3,7 @@ import NameBlock from './NameBlock';
 import babyNameData from './babyNameData.json';
 
 function Search() {
-    
+
   const [keyword, setKeyword] = useState('');
 
   const onChange = (e) => setKeyword(e.target.value);
@@ -17,10 +17,11 @@ function Search() {
       <form>
         <input
           type='text'
-          placeholder='Seach a name'
+          placeholder='Seach a name ...'
           name='keyword'
           value={keyword}
           onChange={onChange}
+          className='input'
         />
       </form>
       <NameBlock allName={filteredData} />

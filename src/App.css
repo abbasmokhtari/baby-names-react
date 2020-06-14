@@ -32,3 +32,10 @@
   width: 90vw;
   margin: 20px auto;
 }
+.input {
+  border-radius: 3px;
+  border: 2px solid rgb(140, 243, 247);
+  width: 30vw;
+  height: 30px;
+  font-size: 1rem;
+}
