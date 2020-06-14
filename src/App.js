@@ -1,14 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import NameBlock from './NameBlock';
-import babyNameData from './babyNameData.json'
-
+// import NameBlock from './NameBlock';
+// import babyNameData from './babyNameData.json';
+import Search from './Search'
 
 function App() {
   return (
-    <div className="App">
-      <NameBlock allName={babyNameData} />
+    <div className='App'>
+      <Search />
     </div>
   );
 }

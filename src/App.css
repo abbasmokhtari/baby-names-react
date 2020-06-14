@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   width: 90vw;
-  margin:  50px auto;
+  margin: 50px auto;
   border: 2px solid rgb(140, 243, 247);
   padding: 20px;
   border-radius: 20px;
@@ -25,10 +25,10 @@
   border-radius: 10px;
 }
 
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 90vw;
-  margin: auto;
+  margin: 20px auto;
 }
